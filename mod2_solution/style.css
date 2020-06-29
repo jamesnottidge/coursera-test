@@ -1,0 +1,91 @@
+*{
+			box-sizing: border-box;
+		}
+		h1{
+			font-family: sans-serif;
+			text-align: center;
+			margin: 10px
+		}
+		section{
+			background-color: grey;
+			float: left;
+			position: relative;
+			padding: 0px;
+			margin: 10px;
+			border:2px solid black;
+			height: 250px;
+			overflow: hidden;
+
+		}
+		div{
+			font-weight: bold;
+			text-align: left;
+			margin: 25px;
+		}
+		
+		
+		#p1{
+			background-color: #ffe5b4;
+			position: absolute;
+			top: -18px;
+			right: -2px;
+			padding: 3px 8px 3px 8px;
+			width: 23%;
+			border:2px solid black;
+			text-align: center;
+			font-weight: bolder;
+			font-family: sans-serif;
+		}
+		
+		#p2{
+			background-color: #bb0a1e;
+			position: absolute;
+			top: -18px;
+			right: -2px;
+			padding: 3px 8px 3px 8px;
+			width: 23%;
+			border:2px solid black;
+			text-align: center;
+			color: white;
+			font-family: sans-serif;
+			font-weight: bolder;
+		}
+
+		
+		#p3{
+			background-color: #ffdf00;
+			position: absolute;
+			top: -18px;
+			right: -2px;
+			padding: 3px 8px 3px 8px;
+			width: 23%;
+			border:2px solid black;
+			text-align: center;
+			font-weight: bolder;
+			font-family: sans-serif;
+
+		}
+		@media (min-width:992px) {
+			section{
+				width: 30%;
+			}
+		}
+		@media (max-width: 991px) and (min-width: 768px){
+			#section1{
+				width: 40%;
+			}
+			#section2{
+				width: 40%;
+			}
+			#section3{
+				width: 82%;
+				height: 150px;
+			}
+		}
+		@media (max-width: 767px){
+			section{
+				height: 150px;
+				margin-left: 20px;
+				margin-right: 20px;
+			}
+		}
