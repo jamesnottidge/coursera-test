@@ -1,0 +1,68 @@
+*{
+	box-sizing: border-box;
+}
+
+
+body{
+	background-color: white;
+}
+#mainnav{
+	background-color: #c2dde6;
+}
+.navbar-brand a {
+	color: black;
+}
+.navbar-brand a:hover {
+	text-decoration: none;
+}
+#mydropdownmenu {
+	background-color: #bccbde;
+	width: 100%;
+	margin-right: -15px;
+	margin-left: -15px;
+	margin-bottom: -7.5px;
+}
+#mydropdownmenu li {
+	text-align: center;
+}
+#mydropdownmenu li a {
+	color: #3a4660;
+	font-family: oxygen;
+	font-size: 1.2em;
+}
+hr { background-color: white; 
+	border-color: white;  
+	width: 95%;
+	}
+
+#ourmenu{
+	margin-top: 15px;
+	margin-bottom: 20px; 
+	text-align: center;
+}
+.menu-tile h3 {
+	text-align: center;
+	margin-top: 5px;
+}
+.menu-tile {
+	background-color: #c2dde6;
+	border: 10px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+/*Extra small devices only*/
+@media ( max-width: 575px){
+	.menu-tile{
+		width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
